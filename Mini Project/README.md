@@ -1,4 +1,4 @@
-<h1>Projek Kecil Sistem Informasi Bengkel<h1>
+<h1>Projek Kecil Sistem Informasi Bengkel</h1>
 Pada projek ini saya membuat sebuah sistem informasi menggunakan php native dengan mengguna mysqli bukan PDO. Adapun User yang tersedia sebagai berikut.
 <ol>
   <li>Pembeli<li>
