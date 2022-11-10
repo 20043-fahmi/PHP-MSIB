@@ -1,0 +1,194 @@
+/* =============
+   CSS MANUAL 
+================*/
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+
+.btn.btn-secondary {
+    background-color: rgb(156, 26, 226);
+    border: none;
+    padding: 8px 16px;
+    margin-right: 0.4em;
+    border-radius: 50rem !important;
+}
+
+a.btn-link {
+    margin: 0;
+    text-decoration: none;
+    color: white;
+
+}
+
+.btn-link:hover {
+    color: #212529;
+}
+
+.btn-modal {
+    background-color: rgb(156, 26, 226);
+    color: white;
+}
+
+.btn:hover {
+    color: #212529;
+    background-color: white;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Modal Account */
+
+.modal-account {
+    margin-right: 0.4rem;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+
+/* ================
+    Header
+=================== */
+.masthead {
+    padding-top: 8rem;
+    height: 100vh;
+
+}
+
+.img-masthead {
+    width: 100%;
+}
+
+h1.display-1 {
+    font-size: 4.5rem;
+}
+
+/* Headline SeBengkel */
+
+/* Aside */
+
+aside,
+section {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+/* SideBar */
+
+.name,
+.menu-section {
+    text-decoration: none;
+    color: white;
+}
+
+/* Features */
+aside {
+    margin-top: 0;
+}
+
+.mt-2em {
+    margin-top: 2em;
+}
+
+.features {
+    height: 80vh;
+    width: auto;
+}
+
+/* div.container.loginAdmin {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10rem;
+} */
+
+form.loginAdmin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 10%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+/* Responsive Mobile */
+@media only screen and (max-width: 768px) {
+
+
+    .img-masthead {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.2rem;
+    }
+
+    h1.display-1 {
+        font-size: 2em;
+    }
+
+    .masthead {
+        height: 70vh;
+    }
+
+    p.lead {
+        margin-bottom: 1rem !important;
+        font-size: 1rem;
+    }
+
+    div.banner {
+        height: 12rem;
+
+    }
+
+    aside {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    div.mt-2em {
+        margin-top: 0;
+    }
+}
